@@ -1,0 +1,50 @@
+{
+  "name": "utils",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs",
+    "test": "test"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "build": "gulp build",
+    "jsdoc": "gulp jsdoc",
+    "eslint": "eslint src/",
+    "test": "jest --config=./tools/jest/jest.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emloxe/utils.git"
+  },
+  "author": "emloxe",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/emloxe/utils/issues"
+  },
+  "homepage": "https://github.com/emloxe/utils#readme",
+  "devDependencies": {
+    "@babel/core": "^7.4.3",
+    "@babel/polyfill": "^7.4.3",
+    "@babel/preset-env": "^7.4.3",
+    "autoprefixer": "^9.5.0",
+    "compression": "^1.7.4",
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-prettier": "^3.0.1",
+    "express": "^4.16.4",
+    "gulp": "^4.0.0",
+    "gulp-babel": "^8.0.0",
+    "gulp-clean-css": "^4.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-postcss": "^8.0.0",
+    "gulp-rev": "^9.0.0",
+    "gulp-rev-collector": "^1.3.1",
+    "gulp-uglify": "^3.0.2",
+    "jsdoc": "^3.5.5",
+    "postcss-short": "^5.0.0",
+    "stream-to-promise": "^2.2.0"
+  }
+}
