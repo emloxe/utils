@@ -12,7 +12,7 @@ if (/\.0$/.test(version)) {
 
 
 // Builds the documentation
-gulp.task('jsdoc', () => {
+gulp.task('doc', () => {
   const envPathSeperator = os.platform() === 'win32' ? ';' : ':';
 
   return new Promise(((resolve, reject) => {

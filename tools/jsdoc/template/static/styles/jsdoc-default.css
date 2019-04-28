@@ -48,12 +48,12 @@ th { font-weight: normal; }
 img { border: none; }
 
 a {
-    color: #0053CF;
+    color: #0366d6;
 }
 a:link,
 a:active,
 a:visited {
-    color: #0053CF;
+    color: #0366d6;
     text-decoration: none;
 }
 
@@ -342,9 +342,9 @@ footer {
     line-height: 1em;
     position: relative;
     padding: 15px;
-    background-color: #dff0d8;
+    background-color: #f1f8ff;
     margin: 0;
-    border-bottom: 1px solid #ccc;
+    border-bottom: 1px solid #c8e1ff;
     font-family: Consolas, "Liberation Mono", Menlo, "Courier New", Courier, Monaco, monospace;
 }
 
@@ -385,7 +385,7 @@ h3
 h4
 {
     position: relative;
-    font-size: 140%;
+    font-size: 130%;
     font-weight: normal;
     letter-spacing: -0.01em;
     margin: 18px 0;
@@ -579,7 +579,7 @@ span.attribute-readonly,
 span.attribute-constant {
   display: inline-block;
   border-radius: 3px;
-  background-color: #779c34 !important;
+  background-color: #9c9 !important;
   color: #fff;
   font-size: 0.7em;
   padding: 2px 4px;

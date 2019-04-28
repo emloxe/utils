@@ -1,5 +1,4 @@
-
-import defaultValue from './defaultValue';
+import defaultValue from "./defaultValue";
 /**
  * Clones an object, returning a new object containing the same properties.
  *
@@ -10,7 +9,7 @@ import defaultValue from './defaultValue';
  * @returns {Object} The cloned object.
  */
 function clone(object, deep) {
-  if (object === null || typeof object !== 'object') {
+  if (object === null || typeof object !== "object") {
     return object;
   }
 
