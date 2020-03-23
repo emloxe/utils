@@ -56,7 +56,7 @@ var hslParenthesesMatcher = /^hsla?\(\s*([0-9.]+)\s*,\s*([0-9.]+%)\s*,\s*([0-9.]
  * @see Packable
  */
 
-class Class {
+export default class Color {
   constructor(red, green, blue, alpha) {
     /**
      * The red component.
@@ -2220,4 +2220,3 @@ Color.YELLOWGREEN = Object.freeze(Color.fromCssColorString("#9ACD32"));
  */
 Color.TRANSPARENT = Object.freeze(new Color(0, 0, 0, 0));
 
-export default Color;
